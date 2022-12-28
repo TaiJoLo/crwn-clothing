@@ -3,12 +3,8 @@ import { useDispatch } from "react-redux";
 
 import FormInput from "../form-input/form-input.component";
 import Button from "../button/button.component";
-import {
-  createAuthUserWithEmailAndPassword,
-  createUserDocumentFromAuth,
-} from "../../utils/firebase/firebase.utils";
 
-import "./sign-up-form.style.scss";
+import { SignUpContainer } from "./sign-up-form.styles";
 import { signUpStart } from "../../store/user/user.action";
 
 const defaultFormFields = {
@@ -18,7 +14,7 @@ const defaultFormFields = {
   confirmPassword: "",
 };
 
-const SignUpFrom = () => {
+const SignUpForm = () => {
   const [formFields, setFormFields] = useState(defaultFormFields);
   const { displayName, email, password, confirmPassword } = formFields;
   const dispatch = useDispatch();
@@ -49,13 +45,12 @@ const SignUpFrom = () => {
 
   const handleChange = (event) => {
     const { name, value } = event.target;
-    // console.log(event);
 
     setFormFields({ ...formFields, [name]: value });
   };
 
   return (
-    <div className="sign-up-container">
+    <SignUpContainer>
       <h2>Don't have an account?</h2>
       <span>Sign up with your email and password</span>
       <form onSubmit={handleSubmit}>
@@ -87,18 +82,17 @@ const SignUpFrom = () => {
         />
 
         <FormInput
-          label="Confirmed Password"
+          label="Confirm Password"
           type="password"
           required
           onChange={handleChange}
           name="confirmPassword"
           value={confirmPassword}
         />
-
         <Button type="submit">Sign Up</Button>
       </form>
-    </div>
+    </SignUpContainer>
   );
 };
 
-export default SignUpFrom;
+export default SignUpForm;
