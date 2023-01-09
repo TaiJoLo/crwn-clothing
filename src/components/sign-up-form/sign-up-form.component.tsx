@@ -8,7 +8,7 @@ import Button from "../button/button.component";
 import { SignUpContainer } from "./sign-up-form.styles";
 import { signUpStart } from "../../store/user/user.action";
 
-import { AuthError } from "firebase/auth";
+import { AuthError, AuthErrorCodes } from "firebase/auth";
 
 const defaultFormFields = {
   displayName: "",
