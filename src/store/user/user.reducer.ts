@@ -10,7 +10,6 @@ import {
 } from "./user.action";
 
 import { UserData } from "../../utils/firebase/firebase.utils";
-import { ErrorListProps } from "antd/lib/form";
 
 export type UserState = {
   readonly currentUser: UserData | null;
