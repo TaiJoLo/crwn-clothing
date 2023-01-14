@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React from "react";
 import { GlobalStyle } from "./global.styles";
 
 import { Routes, Route } from "react-router-dom";
