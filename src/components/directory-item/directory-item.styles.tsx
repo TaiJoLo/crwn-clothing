@@ -14,6 +14,7 @@ export const BackgroundImage = styled.div<BackgroundImageProps>`
 
 export const Body = styled.div`
   height: 90px;
+  width: 150px;
   padding: 0 25px;
   display: flex;
   flex-direction: column;
@@ -46,12 +47,14 @@ export const DirectoryItemContainer = styled.div`
   border: 1px solid black;
   margin: 0 7.5px 15px;
   overflow: hidden;
+
   &:first-child {
     margin-right: 7.5px;
   }
   &:last-child {
     margin-left: 7.5px;
   }
+
   &:hover {
     cursor: pointer;
     ${BackgroundImage} {
@@ -61,5 +64,9 @@ export const DirectoryItemContainer = styled.div`
     ${Body} {
       opacity: 0.9;
     }
+  }
+
+  @media screen and (max-width: 800px) {
+    height: 200px;
   }
 `;

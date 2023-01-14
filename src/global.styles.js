@@ -7,6 +7,10 @@ export const GlobalStyle = createGlobalStyle`
         font-family: "Calistoga", sans-serif;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
+
+        @media screen and (max-width:800px){
+            padding: 10px;
+        }
     }
     
     code {
