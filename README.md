@@ -1,70 +1,129 @@
-# Getting Started with Create React App
+# Crown Clothing E-Commerce Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 📋 <a name="table">Table of Contents</a>
 
-## Available Scripts
+1. 🤖 [Introduction](#introduction)
+2. 🔋 [Features](#features)
+3. ⚙️ [Tech Stack](#tech-stack)
+4. 🤸 [Quick Start](#quick-start)
+5. 🕸️ [Snippets](#snippets)
+6. 🔗 [Links](#links)
+7. 📄 [License](#license)
 
-In the project directory, you can run:
+## 🤖 Introduction
 
-### `npm start`
+Crown Clothing is an advanced e-commerce platform designed to offer users an immersive shopping experience. This website enables users to sign up and log in using their email/password or Google accounts, explore a vast selection of products, manage their shopping cart, and securely process payments online.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🔋 Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+👉 **User Authentication**: Secure sign-up and login functionality with email/password and Google account integration.
 
-### `npm test`
+👉 **Product Catalog**: A wide array of products displayed in an easily navigable catalog.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+👉 **Shopping Cart Functionality**: Users can effortlessly add or remove items from their shopping cart.
 
-### `npm run build`
+👉 **Secure Online Payments**: Incorporates secure payment processing methods to ensure safe transactions.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+👉 **Progressive Web App (PWA) Features**: Enhances user experience with offline access and faster load times, thanks to PWA capabilities.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+👉  **Performance Optimizations**: Leverages React Suspense and Lazy for efficient code-splitting and lazy loading, significantly enhancing site performance.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## 🌐 Deployed Project
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+You can access the live demo of [Crown Clothing](https://gregarious-bublanina-5d6975.netlify.app/) deployed on Netlify, where you can explore the features and functionalities of the application.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Website Walkthrough
 
-## Learn More
+### Step 1: Homepage
+*Start your journey on the Crown Clothing homepage.*
+![Homepage](screenshots/homepage.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+### Step 2: Explore Products - Browse Categories
+*Explore different categories of products available.*
+![Browse Categories](screenshots/category.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+### Step 3: Explore Products - Inside Category
+*Browse products inside a specific category.*
+![Inside Category](screenshots/hats.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+### Step 4: User Authentication
+*Secure sign-up and login functionality with email/password and Google account integration.*
+![User Authentication](screenshots/sign-in.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+### Step 5: Shopping Cart Interaction
+*Add, increase/decrease quantity, and remove items from your shopping cart.*
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+![Shopping Cart](screenshots/cart2.png)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### Step 6: Secure Checkout
+*Proceed to a secure checkout for payment.*
+![Checkout](screenshots/payment1.png)
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## ⚙️ Tech Stack
+
+- **Frontend**: React, TypeScript
+- **Backend**: Node.js, Express.js, Firebase (Firestore for database), GraphQL with Apollo Client for efficient data fetching
+- **Authentication**: Firebase Authentication, supporting email/password and Google Sign-In
+- **Payment Processing**: Stripe API for secure payments, implemented with serverless functions
+- **State Management**: Context API
+- **Styling**: Styled-components for modular and scalable CSS
+- **Testing**: Jest, Enzyme, and snapshot testing ensure the application's reliability and robustness.
+
+
+
+
+
+
+
+## 🤸 Quick Start
+
+Follow these steps to set up the project locally on your machine.
+
+**Prerequisites**
+
+Make sure you have the following installed on your machine:
+
+- [Git](https://git-scm.com/)
+- [Node.js](https://nodejs.org/en)
+- [npm](https://www.npmjs.com/) (Node Package Manager)
+
+
+**Cloning the Repository**
+
+``` bash
+git clone -b main https://github.com/TaiJoLo/crwn-clothing.git
+cd crwn-clothing
+```
+
+**Installation**
+
+Install the project dependencies using npm:
+``` bash
+npm install
+```
+
+**Running the Project**
+
+```bash
+npm run start
+```
+Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
+
+
+## 🤝 Contributing
+
+We welcome contributions to Crown Clothing! If you'd like to contribute, please fork the repository, create a feature branch, and submit your pull request for review.
+
+## 📄 License
+
+This project is licensed under the MIT License - see the LICENSE file for details..
