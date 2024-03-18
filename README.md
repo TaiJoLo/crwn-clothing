@@ -3,7 +3,7 @@
 ## 📋 <a name="table">Table of Contents</a>
 
 1. 🤖 [Introduction](#introduction)
-2. 🔋 [Features](#features)
+2. 🔋  [Features](#features)
 3. ⚙️ [Tech Stack](#tech-stack)
 4. 🤸 [Quick Start](#quick-start)
 5. 🕸️ [Snippets](#snippets)
@@ -126,4 +126,4 @@ We welcome contributions to Crown Clothing! If you'd like to contribute, please 
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the LICENSE file for details..
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/TaiJoLo/crwn-clothing/blob/main/LICENSE) file for details.
