@@ -126,4 +126,4 @@ We welcome contributions to Crown Clothing! If you'd like to contribute, please 
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE]([link-to-license-file](https://github.com/TaiJoLo/crwn-clothing/blob/Redux/LICENSE)https://github.com/TaiJoLo/crwn-clothing/blob/Redux/LICENSE) file for details.
